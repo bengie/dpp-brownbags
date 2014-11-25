@@ -1,0 +1,90 @@
+@import 'normalize.css';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+
+}
+body {
+	height: 100%;
+	width: 100%;
+
+
+	font-family: monospace;
+	font-size: 32px;
+	line-height: 1.5;
+	color: #000;
+	display: table;
+}
+body:before,
+body:after {
+	content: " ";
+	display: table;
+}
+body:after {
+	clear: both;
+}
+h1 {
+	font-size: 4vw;
+	line-height: 1.1;
+	margin: 0;
+}
+h2 {
+	color: #7d5a12;
+	font-size: 1.5vw;
+}
+
+
+.container {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	display: table;
+}
+.page-main-content {
+	display: table-row;
+	height: 100%;
+}
+.page-footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 0 40px 40px 0;
+	text-align: right;
+	color: #7d5a12;
+	font-size: 0.5em;
+}
+.page-footer img {
+	width: 52px;
+	height: 25px;
+	vertical-align: baseline;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.page-footer small {
+	display: block;
+}
+
+/* Event */
+.event {
+	display: table-cell;
+	vertical-align: middle;
+}
+.event__title {
+	font-size: 6vw;
+	line-height: 1;
+	margin: 0;
+}
+.event__details {
+	font-size: 3vw;
+}
+time {
+	color: #888;
+}
