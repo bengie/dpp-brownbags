@@ -12,7 +12,7 @@ html {
 body {
 	height: 100%;
 	width: 100%;
-
+	background: url(../img/fronteers-logo.jpg) no-repeat 0 0;
 
 	font-family: monospace;
 	font-size: 32px;
